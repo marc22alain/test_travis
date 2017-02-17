@@ -39,12 +39,12 @@ describe('basic dummy test', function(done) {
 	});
 
 	it('should be able to perform a basic subtraction', function(done) {
-		(4 -3).should.equal(1);
+		(4 - 3).should.equal(1);
 		done();
 	});
 
 	it('should be able to trigger failure', function(done) {
-		(4 -3).should.equal(2);
+		(4 - 2).should.equal(2);
 		done();
 	});
 
