@@ -43,4 +43,9 @@ describe('basic dummy test', function(done) {
 		done();
 	});
 
+	it('should be able to trigger failure', function(done) {
+		(4 -3).should.equal(2);
+		done();
+	});
+
 });
