@@ -1,0 +1,24 @@
+{
+  "name": "test_travis",
+  "version": "1.0.0",
+  "description": "figuring out Travis CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marc22alain/test_travis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marc22alain/test_travis/issues"
+  },
+  "homepage": "https://github.com/marc22alain/test_travis#readme",
+  "dependencies": {
+    "request": "^2.79.0",
+    "should": "^11.2.0"
+  }
+
+}
